@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.scss";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import ScrollToTop from "./components/common/ScrollToTop";
+import Navbar from "./components/common/Navbar";
+import Home from "./components/pages/Home";
+import Reseller from "./components/pages/Reseller";
+import Solutions from "./components/pages/Solutions";
+import Services from "./components/pages/Services";
+
+import WhitePapers from "./components/pages/WhitePapers";
+import Footer from "./components/common/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Router basename={process.env.PUBLIC_URL}>
+        <ScrollToTop>
+          <Navbar />
+          <Switch>
+            <Route path="/" exact component={Home} />
+            <Route path="/reseller" exact component={Reseller} />
+            <Route path="/services" exact component={Services} />
+            <Route path="/solutions" exact component={Solutions} />
+
+            <Route path="/whitepapers" exact component={WhitePapers} />
+          </Switch>
+          <Footer />
+        </ScrollToTop>
+      </Router>
+    </>
   );
 }
 

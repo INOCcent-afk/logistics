@@ -1,0 +1,152 @@
+.reseller-hero {
+  height: 100vh;
+  width: 100%;
+  max-height: 1000px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5%;
+  text-align: center;
+  overflow: hidden;
+
+  &-floating-img {
+    position: absolute;
+    right: -100px;
+    top: -80px;
+    z-index: 1;
+    img {
+      width: 100vw;
+      min-width: 500px;
+      max-width: 800px;
+    }
+  }
+  &-title {
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 500px;
+
+    p,
+    span {
+      font-family: "Lato", sans-serif;
+      font-size: 35px;
+      color: #737373;
+      padding-bottom: 20px;
+    }
+    span {
+      font-weight: bold;
+    }
+    p:nth-child(1) {
+      font-weight: bold;
+      color: #012e43;
+      padding: 0;
+      font-size: 45px;
+    }
+
+    button {
+      background: #012e43;
+      border: none;
+      width: 150px;
+      height: 30px;
+      border-radius: 10px;
+      a {
+        color: #fff;
+        font-weight: bold;
+        text-decoration: none;
+      }
+    }
+  }
+  &-img {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 0);
+    img {
+      width: 80vw;
+    }
+  }
+}
+
+@media (min-width: 800px) {
+  .reseller-hero {
+    height: 100vh;
+    width: 100%;
+    max-height: 1000px;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+
+    justify-content: center;
+    padding: 140px 5% 0 5%;
+    text-align: center;
+    overflow: hidden;
+
+    &-floating-img {
+      position: absolute;
+      right: -100px;
+      top: -80px;
+      z-index: 1;
+      img {
+        width: 100vw;
+        min-width: 500px;
+        max-width: 800px;
+      }
+    }
+    &-title {
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      max-width: 1000px;
+
+      p,
+      span {
+        font-family: "Lato", sans-serif;
+        font-size: 25px;
+        color: #737373;
+        padding-bottom: 20px;
+      }
+      span {
+        font-weight: bold;
+      }
+      p:nth-child(1) {
+        font-weight: bold;
+        color: #012e43;
+        padding: 0;
+        font-size: 80px;
+      }
+
+      button {
+        background: #012e43;
+        border: none;
+        width: 150px;
+        height: 30px;
+        border-radius: 10px;
+        cursor: pointer;
+        outline: none;
+        a {
+          color: #fff;
+          font-weight: bold;
+          text-decoration: none;
+          width: 150px;
+          height: 30px;
+        }
+      }
+    }
+    &-img {
+      position: absolute;
+      z-index: 10;
+      left: 50%;
+      bottom: 0;
+      transform: translate(-50%, 0);
+      img {
+        width: 90vw;
+        max-width: 800px;
+      }
+    }
+  }
+}
