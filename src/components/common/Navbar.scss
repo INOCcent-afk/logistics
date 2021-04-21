@@ -100,10 +100,8 @@ header {
   pointer-events: all;
 }
 
-@media (min-width: 800px) {
-  .showHeader {
-    transform: translateY(-100%);
-  }
+.showHeader {
+  transform: translateY(-100%);
 }
 @media (min-width: 1000px) {
   .hidden-nav {
