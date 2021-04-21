@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/logistics/static/css/main.bca97af1.chunk.css",
-    "main.js": "/logistics/static/js/main.5a5fe2b8.chunk.js",
-    "main.js.map": "/logistics/static/js/main.5a5fe2b8.chunk.js.map",
+    "main.css": "/logistics/static/css/main.061d6d08.chunk.css",
+    "main.js": "/logistics/static/js/main.d4bbefe1.chunk.js",
+    "main.js.map": "/logistics/static/js/main.d4bbefe1.chunk.js.map",
     "runtime-main.js": "/logistics/static/js/runtime-main.8c3bd54e.js",
     "runtime-main.js.map": "/logistics/static/js/runtime-main.8c3bd54e.js.map",
     "static/js/2.7a54c793.chunk.js": "/logistics/static/js/2.7a54c793.chunk.js",
     "static/js/2.7a54c793.chunk.js.map": "/logistics/static/js/2.7a54c793.chunk.js.map",
     "index.html": "/logistics/index.html",
-    "static/css/main.bca97af1.chunk.css.map": "/logistics/static/css/main.bca97af1.chunk.css.map",
+    "static/css/main.061d6d08.chunk.css.map": "/logistics/static/css/main.061d6d08.chunk.css.map",
     "static/js/2.7a54c793.chunk.js.LICENSE.txt": "/logistics/static/js/2.7a54c793.chunk.js.LICENSE.txt",
     "static/media/Group-1829@2x-5.e50e6f7a.webp": "/logistics/static/media/Group-1829@2x-5.e50e6f7a.webp",
     "static/media/Group-1842@2x-1.3997914f.png": "/logistics/static/media/Group-1842@2x-1.3997914f.png",
@@ -26,12 +26,12 @@
     "static/media/Image-88.d04b57d7.webp": "/logistics/static/media/Image-88.d04b57d7.webp",
     "static/media/Path-1298.0971909f.webp": "/logistics/static/media/Path-1298.0971909f.webp",
     "static/media/bg_home.c385197c.png": "/logistics/static/media/bg_home.c385197c.png",
-    "static/media/download (1).55f565e6.svg": "/logistics/static/media/download (1).55f565e6.svg",
-    "static/media/download (2).d8d011d4.svg": "/logistics/static/media/download (2).d8d011d4.svg",
-    "static/media/download (3).1f3f9a48.svg": "/logistics/static/media/download (3).1f3f9a48.svg",
-    "static/media/download (4).a17e7da3.svg": "/logistics/static/media/download (4).a17e7da3.svg",
-    "static/media/download (5).143c2ac1.svg": "/logistics/static/media/download (5).143c2ac1.svg",
-    "static/media/download.6b03c194.svg": "/logistics/static/media/download.6b03c194.svg",
+    "static/media/download (1).e542854d.svg": "/logistics/static/media/download (1).e542854d.svg",
+    "static/media/download (2).b7a0dce9.svg": "/logistics/static/media/download (2).b7a0dce9.svg",
+    "static/media/download (3).4ebc6d42.svg": "/logistics/static/media/download (3).4ebc6d42.svg",
+    "static/media/download (4).e0640bbd.svg": "/logistics/static/media/download (4).e0640bbd.svg",
+    "static/media/download (5).b0832d9f.svg": "/logistics/static/media/download (5).b0832d9f.svg",
+    "static/media/download.51e1f629.svg": "/logistics/static/media/download.51e1f629.svg",
     "static/media/email-color.24d34fe0.webp": "/logistics/static/media/email-color.24d34fe0.webp",
     "static/media/facebook-color.a4789c67.webp": "/logistics/static/media/facebook-color.a4789c67.webp",
     "static/media/linkedin-color.74847a4f.webp": "/logistics/static/media/linkedin-color.74847a4f.webp",
@@ -42,7 +42,7 @@
   "entrypoints": [
     "static/js/runtime-main.8c3bd54e.js",
     "static/js/2.7a54c793.chunk.js",
-    "static/css/main.bca97af1.chunk.css",
-    "static/js/main.5a5fe2b8.chunk.js"
+    "static/css/main.061d6d08.chunk.css",
+    "static/js/main.d4bbefe1.chunk.js"
   ]
 }
